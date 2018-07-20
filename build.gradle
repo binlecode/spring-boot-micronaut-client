@@ -28,8 +28,9 @@ repositories {
 dependencies {
 	compile 'org.springframework.boot:spring-boot-starter'
 	compile "org.springframework.boot:spring-boot-starter-web"
-
+    compile 'org.yaml:snakeyaml:1.19'
 	annotationProcessor "io.micronaut:inject-java:$micronautVersion"
+	compile "io.micronaut:inject:$micronautVersion"
 	compile "io.micronaut:http-client:$micronautVersion"
 	compile "io.micronaut:spring:$micronautVersion"
 }
